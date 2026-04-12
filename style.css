@@ -245,11 +245,13 @@ button { font-family: inherit; cursor: none; }
 }
 
 .nav--scrolled {
-  background: rgba(19, 8, 0, 0.94);
-  backdrop-filter: blur(20px);
-  -webkit-backdrop-filter: blur(20px);
+  background: rgba(19, 8, 0, 0.75);
+  backdrop-filter: blur(16px);
+  -webkit-backdrop-filter: blur(16px);
   padding-block: 1rem;
-  border-bottom-color: rgba(196, 127, 58, 0.12);
+  border: 1px solid rgba(245, 234, 216, 0.1);
+  border-bottom: 1px solid rgba(245, 234, 216, 0.08);
+  box-shadow: 0 8px 32px 0 rgba(19, 8, 0, 0.5);
 }
 
 .nav__logo {
